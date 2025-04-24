@@ -1,0 +1,58 @@
+/* texto */
+texto-exemplo {
+    color: #333; /* Cor de texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: underline; /* Decoração do texto */
+    line-height: 1.5; /* Espaçamento das linhas */
+}
+/* Box model */
+.box-exemplo{
+    width: 300px; /* Largura */
+    height: 200px; /* Altura */
+    padding: 20px; /* Espaçamento interno */
+    margin: 10px; /* Espaçamento externo */
+    border: 2px solid #ccc; /* Borda */
+    background-color: aliceblue; /* Cor de fundo */
+}
+
+/* Posicionamento */
+.posicionamento{
+   display: block; /* Tipo de exibição */ 
+   position: relative; /* Posicionamento */
+   top: 10px; /* Deslocamento */
+   left: 20px; /* Deslocamento */
+   float: right; /* Flutuação */
+   clear: both; /* Limpar os floats */
+}
+
+/* Unidades absolutas (fixas) */
+.pixel{
+    font-size: 16px; 
+}
+
+/* Unidades relativas */
+.percentual{
+    width: 50%;
+}
+
+/* Unidade em */
+.em{
+    font-size: 1.2em; /* Relativo ao font-size do elemento pai */
+}
+
+.rem{
+    font-size: 1.2rem; /* Relativo ao font-size do elemento raiz(html) */
+}
+
+.viewport{
+    width: 50vw ; /* 50% da largura do viewport */
+    height: 30vh ; /* 30% da altura do viewport */
+}
+
+h1{
+    color: navy;
+    margin-bottom: 20px;
+    font-size: 2.5em; 
+}

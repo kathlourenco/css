@@ -1,0 +1,33 @@
+/* comentário em css */
+/* seletor de elemento -- aolica a todos elementos do <body> */
+
+body{
+    background-color:aqua; 
+}
+
+/* seletor de classe -- aplica a qualquer elemento com class = "destaque" */
+/* usado para vários elementos */
+.destaque{
+    background-color: blueviolet;
+}
+
+/*  seletor de id -- aplica a qualquer elemento com id = "cabecalho" */
+/* usado para apenas um elemento */
+#cabecalho{
+    background-color:crimson;
+}
+
+/*  seletor descendente -- aplica a tag <a> dentro de <nav> */
+
+nav a{
+    color: chartreuse;
+}
+
+/*  pseudo-classe -- estilo quando o mouse passa em cima do elemento  */
+a:hover{
+    color: aquamarine;
+}
+
+h1{
+    color:aliceblue;
+} 
